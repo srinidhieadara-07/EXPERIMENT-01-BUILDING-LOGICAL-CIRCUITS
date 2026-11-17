@@ -197,11 +197,13 @@ EXPERIMENT-01-BUILDING-LOGICAL-CIRCUITS/
 
 ## 10. Viva Questions
 
-1. What are universal logic gates?
-2. State De Morgan's theorems.
-3. What is the difference between SOP and POS?
-4. How does XOR differ from XNOR?
-5. How can Boolean expressions be simplified?
-6. How many truth-table rows are required for six inputs?
-7. What is logic depth?
-8. Why is functional verification necessary?
+1. What are universal logic gates? Universal logic gates are gates that can be used to implement any Boolean function. NAND and NOR are called universal gates.
+2. State De Morgan's theorems. De Morgan's theorems are:
+- First theorem: \((A+B)' = A' \cdot B'\)
+- Second theorem: \((A \cdot B)' = A' + B'\)
+3. What is the difference between SOP and POS?  SOP (Sum of Products) is the OR operation of multiple AND terms. POS (Product of Sums) is the AND operation of multiple OR terms.
+4. How does XOR differ from XNOR?   XOR gives output 1 when the inputs are different, whereas XNOR gives output 1 when the inputs are the same.
+5. How can Boolean expressions be simplified?  Boolean expressions can be simplified using Boolean algebra laws, De Morgan's theorems and Karnaugh maps (K-maps).
+6. How many truth-table rows are required for six inputs?  A truth table with six inputs requires \(2^6 = 64\) rows.
+7. What is logic depth?  Logic depth is the number of logic gate levels between the input and output of a circuit. Lower logic depth generally means faster circuit operation.
+8. Why is functional verification necessary?  Functional verification is necessary to check whether a logic circuit produces the correct output for all possible input combinations.
