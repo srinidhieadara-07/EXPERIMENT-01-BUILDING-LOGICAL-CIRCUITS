@@ -1,7 +1,7 @@
 # EXPERIMENT-01: BUILDING LOGICAL CIRCUITS
 
-## Name : Manish.N
-## Register Number : RA2511030010353
+## Name : Srinidhi E
+## Register Number : RA2511030010336
 
 ## 1. Aim
 
